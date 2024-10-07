@@ -1,0 +1,6 @@
+if SHIELD_IVP60
+
+config ZMK_KEYBOARD_NAME
+    default "IVP60"
+
+endif
