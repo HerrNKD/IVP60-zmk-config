@@ -8,19 +8,20 @@
 		
 		default_layer = {
 			bindings = <
-				&kp KP_N7		&kp KP_N8		&mo 1
-				&kp KP_N4		&kp KP_N5		&mo 6
-				&kp KP_N1		&kp KP_N2		&mo 3
+				&kp KP_N7		&kp KP_N8		&mo 1				&kp A		&kp B		&kp C
+				&kp KP_N4		&kp KP_N5		&mo 6				&kp D		&kp E		&kp F
+				&kp KP_N1		&kp KP_N2		&mo 3				&kp G		&kp H		&kp I
 			>;
 		};
 		
 		bt_layer {
 			bindings = <
-				&none					&none					&bootloader
-				&none					&none					&mo BT_CLR
-				&kp BT_SEL 0	&kp BT_SEL 1	&mo BT_SEL 2
+				&none					&none					&bootloader				&kp Z		&kp Y		&kp W
+				&none					&none					&mo BT_CLR				&kp H		&kp Q		&kp O
+				&kp BT_SEL 0	&kp BT_SEL 1	&mo BT_SEL 2			&kp P		&kp Y		&kp W
 			>;
 		};
 	};
 };
+
 

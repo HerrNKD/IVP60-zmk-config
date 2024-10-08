@@ -1,0 +1,8 @@
+#include "IVP60.dtsi" // The shared dtsi file is included in the overlay
+
+// Label of the kscan node in the dtsi
+
+&default_transform { // offset of 3 because the left side has 3 colums
+	col-offset = <3>;
+};
+
