@@ -6,7 +6,7 @@
 	keymap {
 		compatible = "zmk,keymap";
 		
-		default_layer = {
+		default_layer {
 			bindings = <
 				&kp KP_N7		&kp KP_N8		&mo 1				&kp A		&kp B		&kp C
 				&kp KP_N4		&kp KP_N5		&mo 6				&kp D		&kp E		&kp F
